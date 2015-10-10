@@ -1,0 +1,43 @@
+10
+
+dir
+120
+http://kaupelot@svnchina.com/svn/buzhidao/buzhidao/fun365/fun365/ShareSDK/Core
+http://kaupelot@svnchina.com/svn/buzhidao
+
+
+
+2015-06-25T12:56:24.070506Z
+116
+kaupelot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f84e8029-a696-4488-a417-31e6b0707623
+
+Resource.bundle
+dir
+
+en.lproj
+dir
+
+ShareSDKCoreService.framework
+dir
+
+AGCommon.framework
+dir
+
+zh-Hans.lproj
+dir
+

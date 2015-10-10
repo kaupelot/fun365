@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers
+END
+AVCloud.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVCloud.h
+END
+AVHistoryMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVHistoryMessage.h
+END
+AVOSCloud.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVOSCloud.h
+END
+AVAnonymousUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVAnonymousUtils.h
+END
+AVConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVConstants.h
+END
+AVFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVFile.h
+END
+AVPush.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVPush.h
+END
+AVObject+Subclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVObject+Subclass.h
+END
+AVGeoPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVGeoPoint.h
+END
+AVMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVMessage.h
+END
+AVSearchQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVSearchQuery.h
+END
+AVCloudQueryResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVCloudQueryResult.h
+END
+AVGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVGroup.h
+END
+AVACL.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVACL.h
+END
+AVRole.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVRole.h
+END
+AVUserFeedbackAgent.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVUserFeedbackAgent.h
+END
+AVQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVQuery.h
+END
+AVObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVObject.h
+END
+AVUserFeedbackThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVUserFeedbackThread.h
+END
+AVSubclassing.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVSubclassing.h
+END
+AVRelation.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVRelation.h
+END
+AVUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVUser.h
+END
+AVLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVLogger.h
+END
+AVUserFeedback.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVUserFeedback.h
+END
+AVSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVSession.h
+END
+AVStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVStatus.h
+END
+AVSearchSortBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVSearchSortBuilder.h
+END
+AVAnalytics.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVAnalytics.h
+END
+AVHistoryMessageQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVHistoryMessageQuery.h
+END
+AVInstallation.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVInstallation.h
+END
+AVSignature.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/buzhidao/!svn/ver/116/buzhidao/fun365/fun365/AVOSCloud.framework/Headers/AVSignature.h
+END
