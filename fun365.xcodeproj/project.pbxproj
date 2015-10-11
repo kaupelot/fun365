@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21DC5BA51BCABA0A008FFD82 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DC5BA41BCABA0A008FFD82 /* MBProgressHUD.m */; };
 		C21E1EC11B26CC16008002A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E1EC01B26CC16008002A9 /* DetailViewController.m */; };
 		C21E1ECA1B272436008002A9 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E1EC91B272436008002A9 /* MyView.m */; };
 		C22708321B287AAF00BB5AD8 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22708311B287AAF00BB5AD8 /* LeftViewController.m */; };
@@ -103,6 +104,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21DC5BA31BCABA0A008FFD82 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		21DC5BA41BCABA0A008FFD82 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		21DC5BA61BCABA4D008FFD82 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		555186A46D184B229D03AFB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		56556159E53DEC80B8ED49B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C21E1EBF1B26CC16008002A9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -282,6 +286,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21DC5BA21BCABA0A008FFD82 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				21DC5BA31BCABA0A008FFD82 /* MBProgressHUD.h */,
+				21DC5BA41BCABA0A008FFD82 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		364514FBE5A3645A9BA6ABF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +563,7 @@
 		C2F92BCB1B2280FB0093CAF2 /* fun365 */ = {
 			isa = PBXGroup;
 			children = (
+				21DC5BA21BCABA0A008FFD82 /* MBProgressHUD */,
 				C2BA9C321B3508B600A6D097 /* ShareSDK */,
 				C28C8F091B25CF1700C1F7CD /* AVOSCloud.framework */,
 				C29E54A31B22DAAC0011AEAE /* ListView */,
@@ -561,6 +575,7 @@
 				C2F92BD01B2280FB0093CAF2 /* AppDelegate.h */,
 				C2F92BD11B2280FB0093CAF2 /* AppDelegate.m */,
 				C2F92BD61B2280FB0093CAF2 /* Main.storyboard */,
+				21DC5BA61BCABA4D008FFD82 /* PrefixHeader.pch */,
 				C2F92BD91B2280FB0093CAF2 /* Images.xcassets */,
 				C2B9BF491B285DD300B7AEA4 /* ImageEffects */,
 				C28C8F721B25D40300C1F7CD /* WaterFlow */,
@@ -747,6 +762,7 @@
 				C2C496271B297C320071E78A /* SJSetViewController.m in Sources */,
 				C28C8F081B25CEEB00C1F7CD /* DataBaseHandle.m in Sources */,
 				C27B398A1B256E1E007255E1 /* ListModel.m in Sources */,
+				21DC5BA51BCABA0A008FFD82 /* MBProgressHUD.m in Sources */,
 				C2C496131B2972780071E78A /* NewsTableViewController.m in Sources */,
 				C283E7CD1B2EAF1B0090BE9B /* ListDetailViewController.m in Sources */,
 				C28C8EFB1B25CE6900C1F7CD /* LoginView.m in Sources */,
@@ -916,6 +932,7 @@
 					"$(PROJECT_DIR)/fun365/ShareSDK",
 					"$(PROJECT_DIR)/fun365/ShareSDK/UI",
 				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/fun365/PrefixHeader.pch";
 				INFOPLIST_FILE = fun365/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -950,6 +967,7 @@
 					"$(PROJECT_DIR)/fun365/ShareSDK",
 					"$(PROJECT_DIR)/fun365/ShareSDK/UI",
 				);
+				GCC_PREFIX_HEADER = "${SRCROOT}/fun365/PrefixHeader.pch";
 				INFOPLIST_FILE = fun365/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

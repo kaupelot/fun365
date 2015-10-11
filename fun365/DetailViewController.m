@@ -508,6 +508,7 @@
                             }];
 }
 
+// 处理分享的时候字符串中间的"-"
 - (NSString *)p_aaa:(NSString *)content
 {
     NSRegularExpression *regularExpretion=[NSRegularExpression regularExpressionWithPattern:@"<[^>]*>|\n" options:0 error:nil];

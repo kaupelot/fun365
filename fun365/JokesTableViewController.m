@@ -105,6 +105,11 @@
 // 请求数据
 - (void)p_data
 {
+    MBProgressHUD *hub = [[MBProgressHUD alloc] init];
+    hub.labelText = @"加载中....";
+    [self.tableView addSubview:hub];
+    [hub show:YES];
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -136,6 +141,9 @@
         if (_nightView) {
             _nightView.frame = CGRectMake(0, 0, self.tableView.contentSize.width, self.tableView.contentSize.height);
         }
+        
+        [hub removeFromSuperview];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"请求失败");
     }];
