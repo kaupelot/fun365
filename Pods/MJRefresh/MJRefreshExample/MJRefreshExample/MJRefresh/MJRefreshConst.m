@@ -14,7 +14,7 @@ NSString *const MJRefreshPanState = @"pan.state";
 
 NSString *const MJRefreshHeaderStateIdleText = @"下拉可以刷新";
 NSString *const MJRefreshHeaderStatePullingText = @"松开立即刷新";
-NSString *const MJRefreshHeaderStateRefreshingText = @"正在刷新数据中...";
+NSString *const MJRefreshHeaderStateRefreshingText = @"更多精彩内容正在赶来...";
 
 NSString *const MJRefreshFooterStateIdleText = @"点击加载更多";
 NSString *const MJRefreshFooterStateRefreshingText = @"正在加载更多的数据...";

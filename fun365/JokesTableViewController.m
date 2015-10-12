@@ -70,6 +70,7 @@
     // 添加刷新控件
     __block JokesTableViewController *list = self;
     [self.tableView addLegendHeaderWithRefreshingBlock:^{
+        
         [list p_data];
     }];
     
