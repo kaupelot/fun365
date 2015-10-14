@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f84e8029-a696-4488-a417-31e6b0707623++1916",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f84e8029-a696-4488-a417-31e6b0707623++1916" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f84e8029-a696-4488-a417-31e6b0707623++1916" : 0,
+    "1B3047FD681F80184D0F906FCD1EDF8524124A4C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6C3FD84-A8A4-4201-8C63-83030C070D5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f84e8029-a696-4488-a417-31e6b0707623++1916" : "Pods\/",
+    "1B3047FD681F80184D0F906FCD1EDF8524124A4C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : ".",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : ".",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kaupelot\/fun365.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B3047FD681F80184D0F906FCD1EDF8524124A4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svnchina.com\/svn\/buzhidao",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f84e8029-a696-4488-a417-31e6b0707623++1916"
+    }
+  ]
+}
