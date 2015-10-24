@@ -81,7 +81,6 @@
 		C2C496241B297C320071E78A /* MGSpotyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4961B1B297C320071E78A /* MGSpotyViewController.m */; };
 		C2C496251B297C320071E78A /* MGSpotyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4961D1B297C320071E78A /* MGSpotyView.m */; };
 		C2C496261B297C320071E78A /* MGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C4961F1B297C320071E78A /* MGViewController.m */; };
-		C2C496271B297C320071E78A /* SJSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C496211B297C320071E78A /* SJSetViewController.m */; };
 		C2E070A71B3198300036D84E /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E070A61B3198300036D84E /* edit.png */; };
 		C2E070AD1B31A5E00036D84E /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E070AC1B31A5DF0036D84E /* 14.png */; };
 		C2E681A51B2C0DFD000B2E20 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E681A41B2C0DFD000B2E20 /* setting.png */; };
@@ -215,8 +214,6 @@
 		C2C4961D1B297C320071E78A /* MGSpotyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSpotyView.m; sourceTree = "<group>"; };
 		C2C4961E1B297C320071E78A /* MGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGViewController.h; sourceTree = "<group>"; };
 		C2C4961F1B297C320071E78A /* MGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGViewController.m; sourceTree = "<group>"; };
-		C2C496201B297C320071E78A /* SJSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSetViewController.h; sourceTree = "<group>"; };
-		C2C496211B297C320071E78A /* SJSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSetViewController.m; sourceTree = "<group>"; };
 		C2E070A61B3198300036D84E /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
 		C2E070AC1B31A5DF0036D84E /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
 		C2E681A41B2C0DFD000B2E20 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
@@ -389,8 +386,6 @@
 				C2C4961F1B297C320071E78A /* MGViewController.m */,
 				C2BA35A71B34065600684E79 /* AboutUsViewController.h */,
 				C2BA35A81B34065600684E79 /* AboutUsViewController.m */,
-				C2C496201B297C320071E78A /* SJSetViewController.h */,
-				C2C496211B297C320071E78A /* SJSetViewController.m */,
 			);
 			name = My;
 			sourceTree = "<group>";
@@ -759,7 +754,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2A189381B26BCC10001A257 /* ListViewController.m in Sources */,
-				C2C496271B297C320071E78A /* SJSetViewController.m in Sources */,
 				C28C8F081B25CEEB00C1F7CD /* DataBaseHandle.m in Sources */,
 				C27B398A1B256E1E007255E1 /* ListModel.m in Sources */,
 				21DC5BA51BCABA0A008FFD82 /* MBProgressHUD.m in Sources */,
