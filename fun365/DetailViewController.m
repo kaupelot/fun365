@@ -125,6 +125,10 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self p_loadOther];
     });
+    // 启用多线程,解决迟延问题.可能是由于会在这里更新UI,还是不能成功.
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//        [self p_loadOther];
+//    });
 }
 
 - (void)p_loadOther

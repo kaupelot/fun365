@@ -10,6 +10,6 @@
 
 @interface LeftViewController : UIViewController
 
-
+@property (nonatomic, strong) NSMutableArray *navigationControllerArray;
 
 @end

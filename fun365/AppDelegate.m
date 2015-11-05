@@ -73,6 +73,8 @@
     LeftViewController *leftSideDrawerViewController=[[LeftViewController alloc]init];
     JokesTableViewController *ListTVC = [[JokesTableViewController alloc] initWithStyle:(UITableViewStylePlain)];
     UINavigationController *ListNC = [[UINavigationController alloc] initWithRootViewController:ListTVC];
+    leftSideDrawerViewController.navigationControllerArray = [[NSMutableArray alloc] initWithObjects:@"",@"",@"",@"",@"",@"",@"",@"",@"",nil];
+    [leftSideDrawerViewController.navigationControllerArray replaceObjectAtIndex:2 withObject:ListNC];
     MMDrawerController *drawerController=[[MMDrawerController alloc ]initWithCenterViewController:ListNC leftDrawerViewController:leftSideDrawerViewController];
     [drawerController setMaximumLeftDrawerWidth:self.window.frame.size.width-50];
     [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];

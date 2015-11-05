@@ -210,54 +210,95 @@
     return 40;
 }
 
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSObject *navigationController = [self.navigationControllerArray objectAtIndex:indexPath.row];
+    
+    if (![navigationController isKindOfClass:[UINavigationController class]]) {
+        
+        UIViewController *newViewController;
+        if (indexPath.section == 0) {
+            switch (indexPath.row) {
+                case 0:
+                    newViewController = (UIViewController *)[[NewsTableViewController alloc] init];
+                    break;
+                case 1:
+                    newViewController = (UIViewController *)[[EassaysTableViewController alloc] init];
+                    break;
+                case 2:
+                    newViewController = (UIViewController *)[[JokesTableViewController alloc] init];
+                    break;
+                case 3:
+                    newViewController = (UIViewController *)[[ViewController alloc] init];
+                    break;
+                case 4:
+                    newViewController = (UIViewController *)[[ListViewController alloc] init];
+                    break;
+                default:
+                    newViewController = (UIViewController *)[[ListViewController alloc] init];
+                    break;
+            }
+        }
+        
+        
+        navigationController = (UINavigationController *)[[UINavigationController alloc] initWithRootViewController:(UIViewController *)newViewController];
+    }
+    
+    [self.navigationControllerArray replaceObjectAtIndex:indexPath.row withObject:navigationController];
+    
+    [self.mm_drawerController setCenterViewController:(UINavigationController *)navigationController withCloseAnimation:YES completion:nil];
+    return indexPath;
+}
+
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    // 根据点击切换不同的栏目
-    NewsTableViewController *newsVC = [[NewsTableViewController alloc] init];
-    UINavigationController *newsNC = [[UINavigationController alloc] initWithRootViewController:newsVC];
-    
-    EassaysTableViewController *eassaysVC = [[EassaysTableViewController alloc] init];
-    UINavigationController *eassaysNC = [[UINavigationController alloc] initWithRootViewController:eassaysVC];
-    
-    JokesTableViewController *jokeVC = [[JokesTableViewController alloc] init];
-    UINavigationController *jokeNC = [[UINavigationController alloc] initWithRootViewController:jokeVC];
-    
-    ViewController *pictureVC = [[ViewController alloc] init];
-    UINavigationController *pictureNC = [[UINavigationController alloc] initWithRootViewController:pictureVC];
-    
-    ListViewController *listVC = [[ListViewController alloc] init];
-    UINavigationController *listNC = [[UINavigationController alloc] initWithRootViewController:listVC];
-    
-    if (indexPath.section == 0) {
-        switch (indexPath.row) {
-            case 0:
-                self.mm_drawerController.centerViewController = newsNC;
-                break;
-                
-            case 1:
-                self.mm_drawerController.centerViewController = eassaysNC;
-                break;
-                
-            case 2:
-                self.mm_drawerController.centerViewController = jokeNC;
-                break;
-                
-            case 3:
-                self.mm_drawerController.centerViewController = pictureNC;
-                break;
-                
-            case 4:
-                self.mm_drawerController.centerViewController = listNC;
-                break;
-                
-            default:
-                break;
-        }
-        [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
-    }
+//    // 根据点击切换不同的栏目
+//    NewsTableViewController *newsVC = [[NewsTableViewController alloc] init];
+//    UINavigationController *newsNC = [[UINavigationController alloc] initWithRootViewController:newsVC];
+//    
+//    EassaysTableViewController *eassaysVC = [[EassaysTableViewController alloc] init];
+//    UINavigationController *eassaysNC = [[UINavigationController alloc] initWithRootViewController:eassaysVC];
+//    
+//    JokesTableViewController *jokeVC = [[JokesTableViewController alloc] init];
+//    UINavigationController *jokeNC = [[UINavigationController alloc] initWithRootViewController:jokeVC];
+//    
+//    ViewController *pictureVC = [[ViewController alloc] init];
+//    UINavigationController *pictureNC = [[UINavigationController alloc] initWithRootViewController:pictureVC];
+//    
+//    ListViewController *listVC = [[ListViewController alloc] init];
+//    UINavigationController *listNC = [[UINavigationController alloc] initWithRootViewController:listVC];
+//    
+//    if (indexPath.section == 0) {
+//        switch (indexPath.row) {
+//            case 0:
+//                self.mm_drawerController.centerViewController = newsNC;
+//                break;
+//                
+//            case 1:
+//                self.mm_drawerController.centerViewController = eassaysNC;
+//                break;
+//                
+//            case 2:
+//                self.mm_drawerController.centerViewController = jokeNC;
+//                break;
+//                
+//            case 3:
+//                self.mm_drawerController.centerViewController = pictureNC;
+//                break;
+//                
+//            case 4:
+//                self.mm_drawerController.centerViewController = listNC;
+//                break;
+//                
+//            default:
+//                break;
+//        }
+//        [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+//    }
     if (indexPath.section == 1) {
         switch (indexPath.row) {
                 // 摇一摇
