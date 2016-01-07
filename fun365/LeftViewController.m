@@ -9,10 +9,10 @@
 #import "LeftViewController.h"
 #import "LeftView.h"
 #import "UIViewController+MMDrawerController.h"
-#import "EassaysTableViewController.h"
+#import "EassaysViewController.h"
 #import "ViewController.h"
-#import "NewsTableViewController.h"
-#import "JokesTableViewController.h"
+#import "NewsViewController.h"
+#import "JokesViewController.h"
 #import "MGViewController.h"
 #import "ListViewController.h"
 #import <AVOSCloud/AVOSCloud.h>
@@ -221,13 +221,13 @@
         if (indexPath.section == 0) {
             switch (indexPath.row) {
                 case 0:
-                    newViewController = (UIViewController *)[[NewsTableViewController alloc] init];
+                    newViewController = (UIViewController *)[[NewsViewController alloc] init];
                     break;
                 case 1:
-                    newViewController = (UIViewController *)[[EassaysTableViewController alloc] init];
+                    newViewController = (UIViewController *)[[EassaysViewController alloc] init];
                     break;
                 case 2:
-                    newViewController = (UIViewController *)[[JokesTableViewController alloc] init];
+                    newViewController = (UIViewController *)[[JokesViewController alloc] init];
                     break;
                 case 3:
                     newViewController = (UIViewController *)[[ViewController alloc] init];

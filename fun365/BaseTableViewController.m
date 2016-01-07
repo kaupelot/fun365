@@ -28,8 +28,7 @@
 @property (nonatomic,strong)CMMotionManager *manager;
 @property (nonatomic,strong)UIView *nightView;
 @property (nonatomic,strong)NSString *cateId;
-@property (nonatomic,strong)NSMutableArray *dataArray;
-@property (nonatomic,strong)NSMutableArray *nextDataArray;
+
 @end
 
 @implementation BaseTableViewController
