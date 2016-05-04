@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21151CE11CDA50280047A02C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21151CE01CDA50280047A02C /* BaseViewController.m */; };
 		2186BA811C044BEE001DECE7 /* EassaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2186BA801C044BEE001DECE7 /* EassaysViewController.m */; };
 		2186BA841C044C56001DECE7 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2186BA831C044C56001DECE7 /* NewsViewController.m */; };
 		2186BA871C044C6F001DECE7 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2186BA861C044C6F001DECE7 /* JokesViewController.m */; };
@@ -114,6 +115,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21151CDF1CDA50280047A02C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		21151CE01CDA50280047A02C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		2186BA7F1C044BEE001DECE7 /* EassaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EassaysViewController.h; sourceTree = "<group>"; };
 		2186BA801C044BEE001DECE7 /* EassaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EassaysViewController.m; sourceTree = "<group>"; };
 		2186BA821C044C56001DECE7 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
@@ -132,8 +135,8 @@
 		219335E11C3E5ABE001BC349 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
 		219335E21C3E5ABE001BC349 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		219335E51C3E5AD4001BC349 /* imageCache.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = imageCache.js; sourceTree = "<group>"; };
-		2194B4351BE5E54E004DE746 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
-		2194B4361BE5E54E004DE746 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		2194B4351BE5E54E004DE746 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = ListView/BaseTableViewController.h; sourceTree = "<group>"; };
+		2194B4361BE5E54E004DE746 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = ListView/BaseTableViewController.m; sourceTree = "<group>"; };
 		21DC5BA31BCABA0A008FFD82 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		21DC5BA41BCABA0A008FFD82 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		21DC5BA61BCABA4D008FFD82 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -314,6 +317,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21151CDE1CDA500C0047A02C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2194B4351BE5E54E004DE746 /* BaseTableViewController.h */,
+				2194B4361BE5E54E004DE746 /* BaseTableViewController.m */,
+				21151CDF1CDA50280047A02C /* BaseViewController.h */,
+				21151CE01CDA50280047A02C /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		219335D21C3E5AB4001BC349 /* HZPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,8 +478,6 @@
 		C29E54A31B22DAAC0011AEAE /* ListView */ = {
 			isa = PBXGroup;
 			children = (
-				2194B4351BE5E54E004DE746 /* BaseTableViewController.h */,
-				2194B4361BE5E54E004DE746 /* BaseTableViewController.m */,
 				C21E1EBF1B26CC16008002A9 /* DetailViewController.h */,
 				C21E1EC01B26CC16008002A9 /* DetailViewController.m */,
 				C2B4E5451B297FB800F5E327 /* EassaysTableViewController.h */,
@@ -622,6 +634,7 @@
 		C2F92BCB1B2280FB0093CAF2 /* fun365 */ = {
 			isa = PBXGroup;
 			children = (
+				21151CDE1CDA500C0047A02C /* Base */,
 				C28C8F051B25CED400C1F7CD /* DataBase */,
 				219335D21C3E5AB4001BC349 /* HZPhotoBrowser */,
 				C2B9BF491B285DD300B7AEA4 /* ImageEffects */,
@@ -863,6 +876,7 @@
 				C28C8F781B25D41100C1F7CD /* imageCell.m in Sources */,
 				C2B9BF4F1B285DE600B7AEA4 /* UIImageView+LBBlurredImage.m in Sources */,
 				C28C8F771B25D41100C1F7CD /* WaterFlowLayout.m in Sources */,
+				21151CE11CDA50280047A02C /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
