@@ -2,7 +2,7 @@
 //  JokesTableViewController.m
 //  fun365
 //
-//  Created by lanou3g on 15/6/11.
+//  Created by walt zeng on 15/6/11.
 //  Copyright (c) 2015年 曾旺. All rights reserved.
 //
 
@@ -117,9 +117,6 @@
     NSString *temp = [ud objectForKey:self.name];
     
     NSString *url = [NSString stringWithFormat:@"%@%@",originUrl,temp];
-    
-    //    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-    //    [pasteboard setString:@"10086"];
     
     [manager GET:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         

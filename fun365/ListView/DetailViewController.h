@@ -2,7 +2,7 @@
 //  DetailViewController.h
 //  UILesson17_TableViewLoading
 //
-//  Created by lanou3g on 15/6/8.
+//  Created by walt zeng on 15/6/8.
 //  Copyright (c) 2015年 曾旺. All rights reserved.
 //
 

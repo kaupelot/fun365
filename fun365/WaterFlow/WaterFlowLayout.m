@@ -2,7 +2,7 @@
 //  WaterFlowLayout.m
 //  UI lesson 21 collectionView_layout
 //
-//  Created by lanou3g on 15/5/28.
+//  Created by walt zeng on 15/5/28.
 //  Copyright (c) 2015年 aimon. All rights reserved.
 //
 

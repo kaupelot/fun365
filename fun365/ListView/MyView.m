@@ -2,7 +2,7 @@
 //  MyView.m
 //  FloatButton
 //
-//  Created by lanou3g on 15/6/9.
+//  Created by walt zeng on 15/6/9.
 //  Copyright (c) 2015年 夏栋. All rights reserved.
 //
 
