@@ -39,6 +39,7 @@
     [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     // ShareSDK
+    /*
     [ShareSDK registerApp:shareID];
     
     // 回调页面不能是sharesdk.cn
@@ -67,7 +68,7 @@
     [ShareSDK connectMail];
     //连接拷贝
     [ShareSDK connectCopy];
-    
+    */
     
     // 抽屉效果
     LeftViewController *leftSideDrawerViewController=[[LeftViewController alloc]init];
@@ -154,6 +155,7 @@
     return YES;
 }
 
+/*
 - (BOOL)application:(UIApplication *)application
       handleOpenURL:(NSURL *)url
 {
@@ -171,7 +173,7 @@
                         annotation:annotation
                         wxDelegate:self];
 }
-
+*/
 
 - (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 {

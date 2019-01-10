@@ -5,6 +5,10 @@
 
 test.json
 
+Pods/
+Podfile.lock
+._*
+
 ## Build generated
 build/
 DerivedData/

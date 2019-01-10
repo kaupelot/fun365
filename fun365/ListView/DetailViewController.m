@@ -591,6 +591,7 @@
 }
 
 // 分享
+/*
 - (void)shareButtonAction:(UIButton *)sender
 {
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"share" ofType:@"png"];
@@ -629,6 +630,7 @@
                                 }
                             }];
 }
+*/
 
 // 处理分享的时候字符串中间的"-"
 - (NSString *)p_aaa:(NSString *)content
