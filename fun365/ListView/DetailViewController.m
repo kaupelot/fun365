@@ -14,8 +14,6 @@
 #import "LoginViewController.h"
 #import "AFNetworking.h"
 
-#import <ShareSDK/ShareSDK.h>
-
 // 加入md5加密
 #import <CommonCrypto/CommonDigest.h>
 
@@ -397,8 +395,10 @@
     //初始化一个WebViewJavascript桥梁，方便imageCache.js把数据传过来
     self.bridge = [WebViewJavascriptBridge bridgeForWebView:webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
         NSLog(@"###来自imageCache.js的图片URL数组: %@", data);
-        //利用SDWebImageManager下载图片到本地
-        [self downloadAllImagesInNative:data];
+        if ([data isKindOfClass:[NSArray class]]) {
+            //利用SDWebImageManager下载图片到本地
+            [self downloadAllImagesInNative:data];
+        }
         
 #warning 由于进入详情页之后初始化的第一个view不会走bridge恢复图片,所以目前进入的第一页不会进入下载的方法,而第一个进入此方法的是位于x为640的view3,每次移动均预加载相应方向的前一个webview.
         _imageURLs = data;
@@ -445,6 +445,7 @@
 -(void)downloadAllImagesInNative:(NSArray *)imageUrls{
     SDWebImageManager *manager = [SDWebImageManager sharedManager];
     //初始化一个数组用于存image
+    
     _allImagesOfThisArticle = [NSMutableArray arrayWithCapacity:imageUrls.count];
     for (NSUInteger i = 0; i < imageUrls.count; i++) {
         NSString *_url = imageUrls[i];

@@ -16,12 +16,6 @@
 
 #import "ListModel.h"
 
-#import <ShareSDK/ShareSDK.h>
-#import <TencentOpenAPI/QQApiInterface.h>
-#import <TencentOpenAPI/TencentOAuth.h>
-#import "WXApi.h"
-#import "WeiboSDK.h"
-
 @interface AppDelegate ()
 
 @end
@@ -38,37 +32,6 @@
                       clientKey:avosKey];
     [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
-    // ShareSDK
-    /*
-    [ShareSDK registerApp:shareID];
-    
-    // 回调页面不能是sharesdk.cn
-    [ShareSDK  connectSinaWeiboWithAppKey:weiboID
-                            appSecret:weiboKey
-                              redirectUri:@"http://www.weibo.com"
-                              weiboSDKCls:[WeiboSDK class]];
-    
-    //添加QQ空间应用  注册网址  http://connect.qq.com/intro/login/
-    [ShareSDK connectQZoneWithAppKey:qZoneID
-                           appSecret:qZoneKey
-                   qqApiInterfaceCls:[QQApiInterface class]
-                     tencentOAuthCls:[TencentOAuth class]];
-    //添加QQ应用  注册网址  http://mobile.qq.com/api/
-    [ShareSDK connectQQWithQZoneAppKey:qqID
-                     qqApiInterfaceCls:[QQApiInterface class]
-                       tencentOAuthCls:[TencentOAuth class]];
-    // 添加微信
-    [ShareSDK connectWeChatWithAppId:weixinID
-                           appSecret:weixinKey
-                           wechatCls:[WXApi class]];
-    
-    //连接短信分享
-    [ShareSDK connectSMS];
-    //连接邮件
-    [ShareSDK connectMail];
-    //连接拷贝
-    [ShareSDK connectCopy];
-    */
     
     // 抽屉效果
     LeftViewController *leftSideDrawerViewController=[[LeftViewController alloc]init];
